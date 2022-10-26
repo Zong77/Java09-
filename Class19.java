@@ -1,4 +1,4 @@
-package java09;
+package Java09;
 
 class Data {
 	private String name;
@@ -19,10 +19,10 @@ class Data {
 	}
 
 	void show() {
-		System.out.println("¾Ç¥Í©m¦W:" + name);
-		System.out.println("­^¤å¦¨ÁZ:" + score.english);
-		System.out.println("¼Æ¾Ç¦¨ÁZ:" + score.math);
-		System.out.println("¥­§¡¦¨ÁZ:" + score.avg());
+		System.out.println("å­¸ç”Ÿå§“å:" + name);
+		System.out.println("è‹±æ–‡æˆç¸¾:" + score.english);
+		System.out.println("æ•¸å­¸æˆç¸¾:" + score.math);
+		System.out.println("å¹³å‡æˆç¸¾:" + score.avg());
 	}
 
 	Data(String n, int eng, int m) {
