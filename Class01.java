@@ -1,9 +1,9 @@
-package java09;
+package Java09;
 
 class CRectangle {
 	int width;
 	int height;
-	//(a)CRectangleÃş§Oªº©w¸q
+	//(a)CRectangleé¡åˆ¥çš„å®šç¾©
 
 	public CRectangle(int w, int h) {
 		width = w;
@@ -11,15 +11,15 @@ class CRectangle {
 	}
 
 	public CRectangle() {
-		// µL¤Ş¼Æ«Øºc¤¸
+		// ç„¡å¼•æ•¸å»ºæ§‹å…ƒ
 		//width = 10;
 		//height = 8;
-		//(b)¤pÃD
+		//(b)å°é¡Œ
 		
 		this(10, 8);
 		int width;
 		int height;
-		//(c)¤pÃD¥Îthis()¨Ó³]©w
+		//(c)å°é¡Œç”¨this()ä¾†è¨­å®š
 	}
 
 	public void show() {
