@@ -1,4 +1,4 @@
-package java09;
+package Java09;
 
 class Namecard {
 	private String name;
@@ -25,10 +25,10 @@ class Namecard {
 
 //(b)
 	public void show() {
-		System.out.println("¦n¤Í©m¦W:" + name);
-		System.out.println("¦n¤Í¦a§}:" + this.address);
-		System.out.println("¤½¥q¹q¸Ü:" + data.company);
-		System.out.println("¤â¾÷¸¹½X:" + data.cell);
+		System.out.println("å¥½å‹å§“å:" + name);
+		System.out.println("å¥½å‹åœ°å€:" + this.address);
+		System.out.println("å…¬å¸é›»è©±:" + data.company);
+		System.out.println("æ‰‹æ©Ÿè™Ÿç¢¼:" + data.cell);
 	}
 }
 
