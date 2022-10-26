@@ -1,4 +1,4 @@
-package java09;
+package Java09;
 
 public class Class18 {
 	public static void main(String args[]) {
