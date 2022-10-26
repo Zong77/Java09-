@@ -1,4 +1,4 @@
-package java09;
+package Java09;
 
 class CWin {
 	private static int cnt;
@@ -47,5 +47,5 @@ public class Class08 {
 		CWin.setZore();
 	}
 }
-//(f)Ãş§O¨ç¼Æ¡A¦pªG¤£¬OµLªk²Ö¥[
-//(g)¹ê¨Ò¨ç¼Æ¡A¥u­n°õ¦æcount() cntÅÜ²Ö¥[¡A¦pªG¬OÃş§O¨ç¼ÆÅÜ¦¨ª«¥ó¦@¥Î«KµLªk°õ¦æ
+//(f)é¡åˆ¥å‡½æ•¸ï¼Œå¦‚æœä¸æ˜¯ç„¡æ³•ç´¯åŠ 
+//(g)å¯¦ä¾‹å‡½æ•¸ï¼Œåªè¦åŸ·è¡Œcount() cntè®Šç´¯åŠ ï¼Œå¦‚æœæ˜¯é¡åˆ¥å‡½æ•¸è®Šæˆç‰©ä»¶å…±ç”¨ä¾¿ç„¡æ³•åŸ·è¡Œ
