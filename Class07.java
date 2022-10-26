@@ -1,9 +1,9 @@
-package java09;
+package Java09;
 
 class Count {
 	public static void power(int x, int n) {
 		System.out.println(Math.pow(x,  n));
-		//¥­¤è
+		//å¹³æ–¹
 	}
 }
 
