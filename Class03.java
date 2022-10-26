@@ -1,13 +1,13 @@
-package java09;
+package Java09;
 
 class Caaa {
-	//(c)Caaa¤£¯à«Å§i¦¨public¡A¦]¬°¤@­ÓÀÉ®×¸Ì¥u¯à¦³¤@­ÓpublicªºÃş§O
+	//(c)Caaaä¸èƒ½å®£å‘Šæˆpublicï¼Œå› ç‚ºä¸€å€‹æª”æ¡ˆè£¡åªèƒ½æœ‰ä¸€å€‹publicçš„é¡åˆ¥
 	private int value;
-	//(d)¨S¦³¼vÅT¡A¦]¬°¥i¥H¦b¨ä¥LÃş§O©I¥svalue
+	//(d)æ²’æœ‰å½±éŸ¿ï¼Œå› ç‚ºå¯ä»¥åœ¨å…¶ä»–é¡åˆ¥å‘¼å«value
 
 	public Caaa() {
 		this(10);
-		//(a)¨Ïvalueªº´Ó³Q³]©w¬°10
+		//(a)ä½¿valueçš„æ¤è¢«è¨­å®šç‚º10
 		System.out.println("value=" + value);
 	}
 
@@ -21,6 +21,6 @@ public class Class03 {
 	public static void main(String[] args) {
 		Caaa obj1 = new Caaa();
 		Caaa obj2 = new Caaa(12);
-		//(b)²Ä21¦æ¬O©I¥s¨S¦³¤Ş¼Æªº¡A²Ä22¦æ¬O©I¥s¦³¤Ş¼Æªº
+		//(b)ç¬¬21è¡Œæ˜¯å‘¼å«æ²’æœ‰å¼•æ•¸çš„ï¼Œç¬¬22è¡Œæ˜¯å‘¼å«æœ‰å¼•æ•¸çš„
 	}
 }
