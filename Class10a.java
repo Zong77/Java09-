@@ -1,4 +1,4 @@
-package java09;
+package Java09;
 
 class CRational {
 	public int n;
