@@ -1,4 +1,4 @@
-package java09;
+package Java09;
 
 class CCount {
 	static int cnt = 0;
@@ -16,7 +16,7 @@ class CCount {
 	void setValue(int n) {
 		cnt = n;
 	}
-	//(c)n¬Oint¾ã¼Æ«¬ºA¡A¥i¥ô·N¦bsetValue()¿é¤J¾ã¼Æ
+	//(c)næ˜¯intæ•´æ•¸å‹æ…‹ï¼Œå¯ä»»æ„åœ¨setValue()è¼¸å…¥æ•´æ•¸
 }
 
 public class Class05 {
@@ -28,9 +28,9 @@ public class Class05 {
 		CCount c = new CCount();
 		b.count();
 		//a.setValue();
-		//(b)³]­psetZero()¨ç¼Æ¡A¨Ïcnt­È³QÂk¹s
+		//(b)è¨­è¨ˆsetZero()å‡½æ•¸ï¼Œä½¿cntå€¼è¢«æ­¸é›¶
 		c.count();
 	}
 }
-//(d)Ãş§OÅÜ¼Æ¡Astatic­×¹¢¤l¥[¤W¦¨¬°Ãş§OÅÜ¼Æ¡AÃş§OÅÜ¼Æ¬O¨C¤@­Óª«¥ó¦@¨É¡A¦]¦¹ª«¥ó«Ø¥ß¦Ó²Ö¥[
-//(e)¹ê¤O¨ç¼Æ¡A°õ¦æcount()cntÅÜ²Ö¥[¡A¦pªG¬OÃş§O¨ç¼ÆÅÜ¦¨ª«¥ó¦@¥Î«KµLªk°õ¦æ
+//(d)é¡åˆ¥è®Šæ•¸ï¼Œstaticä¿®é£¾å­åŠ ä¸Šæˆç‚ºé¡åˆ¥è®Šæ•¸ï¼Œé¡åˆ¥è®Šæ•¸æ˜¯æ¯ä¸€å€‹ç‰©ä»¶å…±äº«ï¼Œå› æ­¤ç‰©ä»¶å»ºç«‹è€Œç´¯åŠ 
+//(e)å¯¦åŠ›å‡½æ•¸ï¼ŒåŸ·è¡Œcount()cntè®Šç´¯åŠ ï¼Œå¦‚æœæ˜¯é¡åˆ¥å‡½æ•¸è®Šæˆç‰©ä»¶å…±ç”¨ä¾¿ç„¡æ³•åŸ·è¡Œ
